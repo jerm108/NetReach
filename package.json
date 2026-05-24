@@ -1,0 +1,43 @@
+{
+  "name": "netreach",
+  "version": "1.0.0",
+  "description": "Reachability scanner that finds working IPs/domains under heavy network filtering. Probes TCP, HTTPS, and HTTP in parallel and ships as a single self-contained executable.",
+  "bin": {
+    "netreach": "index.js"
+  },
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "db": "node scripts/download-db.js",
+    "build": "node scripts/build-sea.js"
+  },
+  "keywords": [
+    "ip",
+    "reachability",
+    "scanner",
+    "filtering",
+    "anti-censorship",
+    "cdn",
+    "tcp",
+    "https",
+    "sea"
+  ],
+  "author": "WhoisGray <https://github.com/WhoisGray>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WhoisGray/NetReach.git"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "maxmind": "^5.0.6",
+    "p-limit": "^7.3.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.38.4",
+    "postject": "1.0.0-alpha.6"
+  }
+}

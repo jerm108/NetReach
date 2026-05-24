@@ -1,0 +1,22 @@
+node_modules/
+.pnpm-store
+npm-debug.log*
+pnpm-debug.log*
+yarn-error.log*
+
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+dist/
+build/
+release/
+artifacts/
+
+result.json
+targets/
+
+# GeoIP databases are fetched fresh at build time (CI + local).
+# We never commit them - keeps the repo light.
+db/*.mmdb

